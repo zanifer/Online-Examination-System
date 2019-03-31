@@ -1,0 +1,17 @@
+ .register{
+   width: 100%;
+    padding: 5px;
+    height: 80px;
+    background-color: #495567ed;
+    color: #f1f1f1f0;
+}
+
+
+  .register h1{
+  
+    color:#2196F3;
+    font-size:40px;
+    text-align: center;
+    
+
+    }
