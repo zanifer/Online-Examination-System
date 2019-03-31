@@ -1,0 +1,21 @@
+[2019-03-31 10:30:12] production.ERROR: include(C:\Users\User\Downloads\Final_auth-20190331T061442Z-001\Final_auth\vendor\composer/../laravel/framework/src/Illuminate/Foundation/Support/Providers/AuthServiceProvider.php): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): include(C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\vendor\\composer/../laravel/framework/src/Illuminate/Foundation/Support/Providers/AuthServiceProvider.php): failed to open stream: No such file or directory at C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\vendor\\composer\\ClassLoader.php:444)
+[stacktrace]
+#0 C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\vendor\\composer\\ClassLoader.php(444): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'include(C:\\\\User...', 'C:\\\\Users\\\\User\\\\D...', 444, Array)
+#1 C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\vendor\\composer\\ClassLoader.php(444): include()
+#2 C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\Users\\\\User\\\\D...')
+#3 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('Illuminate\\\\Foun...')
+#4 C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\app\\Providers\\AuthServiceProvider.php(8): spl_autoload_call('Illuminate\\\\Foun...')
+#5 C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\vendor\\composer\\ClassLoader.php(444): include('C:\\\\Users\\\\User\\\\D...')
+#6 C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('C:\\\\Users\\\\User\\\\D...')
+#7 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\A...')
+#8 C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(660): spl_autoload_call('App\\\\Providers\\\\A...')
+#9 C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(594): Illuminate\\Foundation\\Application->resolveProvider('App\\\\Providers\\\\A...')
+#10 C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ProviderRepository.php(75): Illuminate\\Foundation\\Application->register('App\\\\Providers\\\\A...')
+#11 C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(574): Illuminate\\Foundation\\ProviderRepository->load(Array)
+#12 C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\RegisterProviders.php(17): Illuminate\\Foundation\\Application->registerConfiguredProviders()
+#13 C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#14 C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(311): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#15 C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#16 C:\\Users\\User\\Downloads\\Final_auth-20190331T061442Z-001\\Final_auth\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 {main}
+"} 
